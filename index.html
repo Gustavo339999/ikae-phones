@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IkaePhones</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,27 +27,30 @@
         <h1>IkaePhones</h1>
 
         <p>
-       
+            Venta de celulares nuevos y seminuevos.
+        </p>
 
     </section>
 
     <section id="catalogo" class="card">
 
-        <h2>📱 Catálogo Oficial</h2>
+    <h2>📱 Catálogo Oficial</h2>
 
-        <p>
-            Consulta todos nuestros modelos disponibles.
-        </p>
+    <p class="catalogo-texto">
+        Consulta todos nuestros modelos disponibles.
+    </p>
 
-        <a
-            href="https://wa.me/c/59163561830"
-            target="_blank"
-            class="btn"
-        >
-            Abrir Catálogo
-        </a>
+    <a
+        href="https://wa.me/c/59163561830"
+        target="_blank"
+        class="btn-catalogo"
+    >
+        Abrir Catálogo
+    </a>
 
-    </section>
+    <div id="listaProductos"></div>
+
+</section>
 
     <section id="redes" class="card">
 
@@ -92,11 +96,14 @@
         💬
     </a>
 
-    <script src="js/app.js"></script>
+    <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-<script src="supabase.js"></script>
-<script src="app.js"></script>
+    <!-- Tu conexión -->
+    <script src="supabase.js"></script>
+
+    <!-- Tu código JS -->
+    <script src="app.js"></script>
 
 </body>
 </html>
