@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <nav>
         <div class="logo-nav">📱 IkaePhones</div>
 
@@ -16,53 +17,58 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#catalogo">Catálogo</a></li>
             <li><a href="#redes">Redes</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
+    <!-- INICIO -->
     <section id="inicio" class="hero">
 
-        <img src="iak.png" alt="IkaePhones">
+        <img src="iakee.png" alt="IkaePhones">
 
         <h1>IkaePhones</h1>
 
         <p>
-            Venta de celulares nuevos y seminuevos.
+            Venta de celulares nuevos y seminuevos con garantía y los mejores precios.
         </p>
+
+    
+    </section>
+
+    <!-- CATALOGO -->
+    <section id="catalogo" class="card">
+
+        <h2>📱 Catálogo Oficial</h2>
+
+        <p class="catalogo-texto">
+            Consulta todos nuestros modelos disponibles.
+        </p>
+
+        <a href="https://wa.me/c/59163561830"
+           target="_blank"
+           class="btn-catalogo">
+            Abrir Catálogo
+        </a>
+
+        <div id="listaProductos"></div>
 
     </section>
 
-    <section id="catalogo" class="card">
-
-    <h2>📱 Catálogo Oficial</h2>
-
-    <p class="catalogo-texto">
-        Consulta todos nuestros modelos disponibles.
-    </p>
-
-    <a
-        href="https://wa.me/c/59163561830"
-        target="_blank"
-        class="btn-catalogo"
-    >
-        Abrir Catálogo
-    </a>
-
-    <div id="listaProductos"></div>
-
-</section>
-
+    <!-- REDES -->
     <section id="redes" class="card">
 
         <h2>🌐 Redes Sociales</h2>
 
         <div class="redes">
 
-            <a href="https://www.instagram.com/ikae_phones?igsh=MTlnYTY4dXd5ODJjNg==" target="_blank">
+            <a href="https://www.instagram.com/ikae_phones?igsh=MTlnYTY4dXd5ODJjNg=="
+               target="_blank">
                 📸 Instagram
             </a>
 
-            <a href="https://www.tiktok.com/@ikaephones?_r=1&_t=ZS-96pmUJqGACX" target="_blank">
+            <a href="https://www.tiktok.com/@ikaephones?_r=1&_t=ZS-96pmUJqGACX"
+               target="_blank">
                 🎵 TikTok
             </a>
 
@@ -70,6 +76,34 @@
 
     </section>
 
+    <!-- UBICACION -->
+    <section id="ubicacion" class="card">
+
+        <h2>📍 Nuestra Ubicación</h2>
+
+        <p class="ubicacion-texto">
+            Encuéntranos en Santa Cruz, Bolivia.
+        </p>
+
+        <div class="galeria-ubicacion">
+
+            <img src="ubi.png" alt="Ubicación">
+
+            <img src="ubica.png" alt="Ubicación">
+
+            <img src="ubicacion.png" alt="Ubicación">
+
+        </div>
+
+        <a href="https://maps.app.goo.gl/jHs8kvBKfj2KGmT48?g_st=iw"
+           target="_blank"
+           class="btn-mapa">
+            📍 Abrir en Google Maps
+        </a>
+
+    </section>
+
+    <!-- CONTACTO -->
     <section id="contacto" class="card">
 
         <h2>💬 Contacto</h2>
@@ -78,31 +112,37 @@
             📞 63561830
         </p>
 
+        <p>
+            📍 Santa Cruz, Bolivia
+        </p>
+
+        <br>
+
+
+        <br><br>
+
         <button id="btnWhatsapp">
             Consultar por WhatsApp
         </button>
 
     </section>
 
+    <!-- FOOTER -->
     <footer>
         © 2025 IkaePhones - Todos los derechos reservados.
     </footer>
 
-    <a
-        href="https://wa.me/59163561830"
-        class="whatsapp-float"
-        target="_blank"
-    >
+    <!-- WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/59163561830"
+       class="whatsapp-float"
+       target="_blank">
         💬
     </a>
 
-    <!-- Supabase -->
+    <!-- SUPABASE -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-    <!-- Tu conexión -->
     <script src="supabase.js"></script>
-
-    <!-- Tu código JS -->
     <script src="app.js"></script>
 
 </body>
